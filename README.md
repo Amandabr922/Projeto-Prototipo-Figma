@@ -49,7 +49,8 @@ projeto_final/
 ## Conteúdo dos arquivos (breve)
 - **index.html** — Página inicial com cards dos itens.  
 - **img/** — Pasta exibindo imagens.  
-- **contato.html** — Formulário de contato com `label` associado aos campos. (Ex.: `contato.html`).  
+- **contato.html** — Formulário de contato com `label` associado aos campos. (Ex.: `contato.html`).
+- **detalhes.html** — Pagina com detalhes do donut e valor.   
 - **css/style.css** — Estilos compartilhados entre as páginas.  
 
 ---
