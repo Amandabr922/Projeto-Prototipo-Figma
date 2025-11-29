@@ -12,12 +12,12 @@ Doçura em círculos é uma adaptação de um protótipo criado no Figma. O proj
 ## Objetivo do Projeto
 Colocar em prática os conceitos aprendidos na disciplina **Desenvolvimento Web I**.  
 Criar um site completo em **HTML** e **CSS**, respeitando design, paleta de cores e estrutura do protótipo do Figma.  
-Entrega: publicação no **GitHub Pages** com link do repositório e README.
+
 
 ---
 
 ## Requisitos (resumido)
-- Apenas **HTML** e **CSS** (sem JavaScript).
+- Apenas **HTML** e **CSS** .
 - Três páginas principais: `index.html`, `detalhes.html`, `contato.html`.
 - Cabeçalho (`header`) e rodapé (`footer`) compartilhados entre páginas.
 - Página inicial com **cards** (imagem, título, descrição).
