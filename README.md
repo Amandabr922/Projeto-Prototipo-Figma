@@ -16,7 +16,7 @@ Criar um site completo em **HTML** e **CSS**, respeitando design, paleta de core
 
 ---
 
-###✅ Requisitos (resumido)
+##✅ Requisitos (resumido)
 - Apenas **HTML** e **CSS** .
 - Três páginas principais: `index.html`, `detalhes.html`, `contato.html`.
 - Cabeçalho (`header`) e rodapé (`footer`) compartilhados entre páginas.
@@ -34,7 +34,7 @@ projeto_final/
 ├── index.html
 ├── html/
 │   ├── contato.html
-│   ├── inicio.html
+│   ├── detalhes.html
 ├── css/
 │   └── style.css
 ├── img/                    
