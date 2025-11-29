@@ -1,11 +1,11 @@
-# Doçura em Círculos
+## 🍩Doçura em Círculos🍩
 
 > Implementação do protótipo do Figma — Projeto Final (Desenvolvimento Web I)
 
 ---
 
-## Descrição
-Doçura em círculos é uma adaptação de um protótipo criado no Figma. O projeto contém páginas em HTML e CSS (sem JavaScript) que exibem um cardapio para comprar donuts, página de detalhes e formulário de contato. A estrutura segue o protótipo e a paleta definida no Figma.
+### 🍫 Descrição
+Doçura em círculos é uma adaptação de um protótipo criado no Figma. O projeto contém páginas em HTML e CSS (sem JavaScript) que exibem uma tela inicial, página de detalhes e formulário de contato. A estrutura segue o protótipo e a paleta definida no Figma.
 
 ---
 
@@ -16,7 +16,7 @@ Criar um site completo em **HTML** e **CSS**, respeitando design, paleta de core
 
 ---
 
-## Requisitos (resumido)
+###✅ Requisitos (resumido)
 - Apenas **HTML** e **CSS** .
 - Três páginas principais: `index.html`, `detalhes.html`, `contato.html`.
 - Cabeçalho (`header`) e rodapé (`footer`) compartilhados entre páginas.
@@ -32,21 +32,22 @@ Criar um site completo em **HTML** e **CSS**, respeitando design, paleta de core
 ```
 projeto_final/
 ├── index.html
-├── contato.html
-├── detalhes.html
+├── html/
+│   ├── contato.html
+│   ├── inicio.html
 ├── css/
 │   └── style.css
-├── img/                    # imagens usadas no site (prints do Figma, capas, thumbnails)
+├── img/                    
 │   ├── DulceNinho.jpg
 │   ├── NinhoNut.jpg
 │   ├── RedNinho.jpg
 │   └── (outras imagens...)
-├── README.md               # documento explicativo (este arquivo)
+├── README.md             
 ```
 ---
 
 ## Conteúdo dos arquivos (breve)
-- **index.html** — Página inicial com cards dos itens (músicas). (Ex.: `index.html`).  
+- **index.html** — Página inicial com cards dos itens.  
 - **img/** — Pasta exibindo imagens.  
 - **contato.html** — Formulário de contato com `label` associado aos campos. (Ex.: `contato.html`).  
 - **css/style.css** — Estilos compartilhados entre as páginas.  
@@ -68,16 +69,16 @@ projeto_final/
 ## 🎨 Semelhanças e Diferenças entre o Protótipo (Figma) e o Site Final (HTML/CSS)
 
 ### ✅ Semelhanças
-- Estrutura principal das páginas foi mantida (header, conteúdo e footer).
-- Os cards da página inicial seguem o mesmo formato previsto no protótipo.
+- Estrutura principal das páginas foi mantida.
+- A paleta de cores foi mantida no site oficial.
 - As páginas possuem navegação igual ao layout do Figma.
-- O posicionamento dos elementos respeita o que foi planejado no design inicial.
+- As imagens dos donuts aparecem em destaques nos dois.
 - O conteúdo segue o mesmo padrão do design no Figma.
 
 ### ⚠️ Diferenças
-- A paleta de cores muda o padrão definido no Figma.
+- O site final usa espaçamentos,proporções e margens um pouco diferentes.
 - Algumas imagens precisaram ser ajustadas para tamanhos mais adequados ao layout final.
-- Diferenças de espaçamento/margens devido à adaptação prática no CSS.
-- Tipografia pode variar conforme a fonte disponível no navegador.
-- Alguns elementos foram simplificados para manter o site mais responsivo.
-- No Figma havia efeitos mais visuais (sombras, gradientes, etc.) que foram adaptados para CSS puro.
+- No site não possui as ondas e os donuts decorativos no fundo.
+- Tipografia não esta exatamente igual do prototipo.
+- No prototipo os elementos estao mais centralizados,no site,alguns ficaram mais na esquerda e direita..
+- No Figma havia efeitos mais visuais que foram adaptados.
