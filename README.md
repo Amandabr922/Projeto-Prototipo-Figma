@@ -56,13 +56,13 @@ projeto_final/
 
 ### Protótipo (Figma)
 ![Figma - Página Inicial](img/InicialFigma.jpg)
-![Figma - Página de Contato](img/ContatoFigma.jpg)
-![Figma - Página de Detalhes (Exemplo)](img/DetalhesFigma.jpg)
+![Figma - Página de Contato](img/DetalhesFigma.jpg)
+![Figma - Página de Detalhes (Exemplo)](img/ContatoFigma.jpg)
 
 ### Implementação (HTML/CSS)
 ![Site - Página Inicial](img/InicialSite.jpg)
-![Site - Página de Contato](img/contatoSite.jpg)
-![Site - Página de Detalhes (Exemplo)](img/detalhesSite.jpg)
+![Site - Página de Contato](img/detalhesSite.jpg)
+![Site - Página de Detalhes (Exemplo)](img/contatoSite.jpg)
 
 
 ## 🎨 Semelhanças e Diferenças entre o Protótipo (Figma) e o Site Final (HTML/CSS)
