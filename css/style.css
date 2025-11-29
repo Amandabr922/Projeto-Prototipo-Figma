@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color:#E94E77
+}
+
+body {
+    background-color: #E94E77; 
+    color: #ffffffdd;
+}
+
+header {
+    background-color: #ffffff; 
+    color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+.subtitulo {
+    color: #ffffff;
+    margin: 40px;
+    margin-top: 50px;
+    font-size: 5.9em;
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.8);
+    font-family: "Pacifico", cursive;
+
+
+}
+
+nav ul {
+    list-style: none; 
+    display: flex;
+    justify-content: center; 
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+
+section h2 {
+    text-align: center;
+    color: #ffffff;          
+    font-size: 1.8em;
+    padding: 50px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+
+
+}
+
+li a {
+    text-decoration: none; 
+    font-weight: 10;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.item img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+}
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+aside, footer {
+    margin: 20px auto 0 auto;
+    padding:20px;
+    text-align: center;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+
+}
+
+footer p {
+    color: rgba(138, 123, 123, 0.575);
+    font-size: 0.9em;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+    
+}
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.nomedocontado {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    width: 100%;
+    max-width: 500px;       
+    margin: 0 auto;        
+}
+
+
+.nome_contato {
+    text-align: center;     
+    color: white;        
+    font-size: 2.2em;      
+    font-weight: bold;
+    margin-bottom: 25px;  
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); 
+}
+
+form label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {     
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    background: #e2d8db3b;     
+    border: 2px solid #000000aa;  
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    flex-direction: row;       
+}
+
+#Enviar {
+    background: #D8184B;
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #850a83;
+}
+
+
+.produto {
+  display: flex;   
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 0px auto;
+  max-width: 900px;
+  padding: 10px;
+  margin: 40px;
+  margin-top: 50px;
+}
+
+.produto img {
+  width: 260px;
+  border-radius: 12px;
+}
+
+.descricao {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;    
+  width: 100%; 
+}          
+
+.descricao p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color:#ffffff;
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+.preco {
+  color: #ffffff;
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.descricao h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color:#ffffff;
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.btn-pedido {
+    background-color: #D8184B;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+}
